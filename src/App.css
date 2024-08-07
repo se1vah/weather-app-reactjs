@@ -1,0 +1,90 @@
+body{
+    font-family: 'Poppins';
+    background-color: rgb(80, 164, 192);
+    display:flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.App
+{
+    width: 380px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+.search-box
+{
+    height: 30px;
+    display: flex;
+    border: 1px solid rgb(174, 174, 174);
+    width: 100%;
+}
+.search-box input[type='text']
+{
+    padding: 10px;
+    border: none;
+    flex: 1;
+}
+.search-icon
+{
+    background-color: white;
+    border-left: 1px solid rgb(174, 174, 174);
+    padding: 5px;
+}
+.inner-information
+{
+    display: flex;
+}
+.inner-information > div
+{
+    width: 50%;
+}
+.weather-image
+{
+    margin-top: 50px;
+    
+    width: 100px;
+    height: 100px;
+}
+.celcious
+{
+    font-size: 40px;
+}
+.cc-class
+{
+    padding: 10px;
+}
+.celcious-status
+{
+    line-height: 0;
+}
+.status
+{
+    color: rgb(35, 156, 236);
+}
+.cityname
+{
+    border-bottom: 2px solid red;
+ 
+    text-transform: uppercase;
+    color: rgb(8, 47, 140);
+}
+.information > div
+{
+    
+    background-color: rgb(189, 252, 252);
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 0.3;
+    font-size: 13px;
+    
+
+    
+}
+.information
+{
+    gap: 10px;
+    display: flex;
+}
